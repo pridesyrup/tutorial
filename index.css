@@ -13,6 +13,7 @@ body .t-header {
   height: 5rem;
   width: 100%;
   background-color: blue;
+  color: white;
 }
 
 body .t-body {
