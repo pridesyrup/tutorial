@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    p,h1 {
+        margin: 0rem;
+    }
+    .t-header {
+        height: 5rem;
+        width: 100%;
+        background-color: blue;
+    }
+
+    .t-body {
+        height: calc(100% - 10rem);
+        width: 100%;
+        background-color: cadetblue;
+        overflow: auto;
+        p {
+            font-size: 20rem;
+        }
+    }
+
+    .t-footer{
+        height: 5rem;
+        width: 100%;
+        background-color: blueviolet;
+    }
+}
